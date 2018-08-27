@@ -1,0 +1,25 @@
+body {
+    background-color: whitesmoke;
+}
+h1{
+    color: green;
+    text-align: center;
+}
+p{
+    color: red;
+    text-align: center;
+}
+ul{
+    color: green;
+    
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
