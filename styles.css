@@ -1,25 +1,222 @@
 body {
-    background-color: whitesmoke;
+    background-color: rgb(51, 51, 51);
 }
-h1{
-    color: green;
+.hjem01{
+    color: rgb(50, 250, 50
+    );
     text-align: center;
+    width: 450px;
+    border: 1px solid rgb(50, 250, 50);
+    margin: 25px;
 }
-p{
-    color: red;
+.mudd01{
+    color: rgb(50, 250, 50
+    );
     text-align: center;
+    width: 450px;
+    border: 2px solid rgb(50, 250, 50);
+    margin: 25px;
 }
-ul{
-    color: green;
+.mmc01{
+    color: rgb(50, 250, 50
+    );
+    text-align: center;
+    width: 450px;
+    border: 2px solid rgb(50, 250, 50);
+    margin: 25px;
+}
+.mpc01{
+    color: rgb(50, 250, 50
+    );
+    text-align: center;
+    width: 450px;
+    border: 2px solid rgb(50, 250, 50);
+    margin: 25px;
+}
+.img{
+    width: 50px;
+        }
     
+    .bil01 img{
+    float: left;
+    margin-left: 0px 0px 0px 30px;
+    width: auto;
+    height: auto;
+    max-width: 150px;
+    max-height: auto;
+    border: 2px solid rgb(50, 250, 50);
+    }
+    .mc01 img{
+        float: left;
+        margin-left: 0px 0px 0px 30px;
+        width: auto;
+        height: auto;
+        max-width: 150px;
+        max-height: auto;
+        border: 2px solid rgb(50, 250, 50);
+        }
+    .pc01 img{
+            float: left;
+            margin-left: 0px 0px 0px 30px;
+            width: auto;
+            height: auto;
+            max-width: 150px;
+            max-height: auto;
+            border: 2px solid rgb(50, 250, 50);
+            }
+
+
+.para02{
+    color: rgb(50, 250, 50
+    );
+    text-align: left;
 }
-table#t01 tr:nth-child(even) {
-    background-color: #eee;
+.para01{
+    color: red;
+    text-align: left;
 }
-table#t01 tr:nth-child(odd) {
-   background-color: #fff;
+.tekst01{
+    color: rgb(50, 250, 50);
+    text-align: left;
 }
-table#t01 th {
-    background-color: black;
+
+
+ul{
+    color: black;
+    
+
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: rgb(50, 250, 50
+    );;
     color: white;
-}
+  }
+
+  div.backside{
+      width: 100px;
+    height: 100px;
+    background-image: url(billedervendespil/00.jpg);
+    background-size: 100px 100px;
+    display: inline-flex;
+    border-radius: 15px;
+    
+  }
+
+  div#pic1:hover{
+    box-shadow: 0 0 20px red;
+  }
+  div#pic2:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic3:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic4:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic5:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic6:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic7:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic8:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic9:hover{
+    box-shadow: 0 0 20px red;
+  } 
+  div#pic10:hover{
+    box-shadow: 0 0 20px red;
+  } 
+
+    div#pic1:hover{
+      background-image: url(billedervendespil/01.jpg);
+      transition-delay: 500ms;
+      transition-property: background-image;
+    }
+    
+    div#pic2:hover{
+        background-image: url(billedervendespil/02.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic3:hover{
+        background-image: url(billedervendespil/03.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic4:hover{
+        background-image: url(billedervendespil/04.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic5:hover{
+        background-image: url(billedervendespil/05.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic6:hover{
+        background-image: url(billedervendespil/06.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic7:hover{
+        background-image: url(billedervendespil/07.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic8:hover{
+        background-image: url(billedervendespil/08.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic9:hover{
+        background-image: url(billedervendespil/09.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+    div#pic10:hover{
+        background-image: url(billedervendespil/10.jpg);
+        transition-delay: 500ms;
+        transition-property: background-image;
+      }
+  
+                  
+
+    
+
+
+
+ 
+ 
